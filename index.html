@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Event Registration</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Register for an Event</h2>
+            <form id="event-registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="event">Select Event:</label>
+                <select id="event" name="event" required>
+                    <option value="Tech Conference">Tech Conference</option>
+                    <option value="Art Workshop">Art Workshop</option>
+                    <option value="Music Festival">Music Festival</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Event Registration</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
